@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="awg-quick">Install the awg-quick(8) helper tool. Most users want to use this.</flag>
+	</use>
+</pkgmetadata>

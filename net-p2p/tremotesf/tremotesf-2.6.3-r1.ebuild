@@ -60,8 +60,8 @@ DEPEND="
 
 RDEPEND="
     ${_shared_libraries}
-    !qt6? ( kde-plasma/kwayland-integration:5 )
-    qt6? ( kde-plasma/kwayland-integration:6 )
+    !qt6? ( <kde-plasma/kwayland-integration-6.0.0 )
+    qt6? ( >=kde-plasma/kwayland-integration-6.0.0 )
 "
 
 src_configure() {

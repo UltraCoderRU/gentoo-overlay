@@ -7,11 +7,11 @@ HOMEPAGE=https://github.com/equeim/tremotesf2
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=unpacker cmake xdg
 IUSE=qt6 test
-KEYWORDS=~amd64 ~arm ~arm64 ~x86
+KEYWORDS=amd64 ~arm ~arm64 ~x86
 LICENSE=GPL-3+
 RDEPEND=!qt6? ( dev-qt/qtcore:5 dev-qt/qtnetwork:5[ssl] dev-qt/qtgui:5 dev-qt/qtwidgets:5 dev-qt/qtdbus:5 kde-frameworks/kwidgetsaddons:5 kde-frameworks/kwindowsystem:5 ) qt6? ( dev-qt/qtbase:6[dbus,gui,network,ssl,widgets] kde-frameworks/kwidgetsaddons:6 kde-frameworks/kwindowsystem:6 ) dev-libs/libfmt net-libs/libpsl !qt6? ( <kde-plasma/kwayland-integration-6.0.0 ) qt6? ( >=kde-plasma/kwayland-integration-6.0.0 )
 RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=https://github.com/equeim/tremotesf2/releases/download/2.7.2/tremotesf-2.7.2.tar.zst
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=730bc72a1fc1583fec8fb9b022db601c
+SRC_URI=https://github.com/equeim/tremotesf2/releases/download/2.8.2/tremotesf-2.8.2.tar.zst
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=ba78922526b9651cd75592d9964e74a7

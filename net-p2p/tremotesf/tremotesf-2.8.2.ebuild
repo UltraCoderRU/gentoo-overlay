@@ -11,7 +11,7 @@ SRC_URI="https://github.com/equeim/tremotesf2/releases/download/${PV}/${P}.tar.z
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+KEYWORDS="amd64 ~arm ~arm64 ~x86"
 IUSE="qt6 test"
 RESTRICT="!test? ( test )"
 
